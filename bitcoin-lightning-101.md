@@ -36,9 +36,11 @@ A way to get started with Bitcoin: or How I Learned to Stop over-complicating th
 - Why am I doing this?
 - What we **won't** talk about this presentation
 - What are you looking to get out of this?
+	- Who here has send & received bitcoin?
+	  - ...on the Lightning Network
 
 
-note: My name is Jason. Online I go by Not Jason. I am here to try to provide a no bs way to look at Bitcoin for non-technical users. We are not talking about: other cryptocurrency, technical jargon, monetary theory, humanitarian / moral implication of monetary control, or the environment. If you wanted to talk about P2TR, Ludwig Von Mises, the CFA franc, or how ASICS are may be leading us to sustainable energy, you are in the wrong place.
+note: My name is Jason. Online I go by Not Jason. I am here to try to provide a no bs way to look at Bitcoin for non-technical users. We are not talking about: other cryptocurrency, technical jargon, monetary theory, humanitarian / moral implication of monetary control, or the environment. If you wanted to talk about P2TR, Ludwig Von Mises, the CFA franc, the difference between LND and clightning, or how ASICS are may be leading us to sustainable energy, you are in the wrong place.
 
 ---
 # The Punch Line
@@ -137,6 +139,14 @@ Transaction Fees at 2024-05-29 17:50 MST:
 
 note: Transaction fees are done relative to how "in demand" the block space is. Unless you have a high transaction volume, don't worry too much about fees. If you would like to avoid fees, look into the "off chain" or "layer 2 solutions", such as the lightning network.
 
+# How to Know Your Transaction Was Successful
+
+- It takes on average 10 minutes
+- A transaction is pending when it isn't confirmed.
+- A transaction is completed when there it is confirmed.
+
+note: 1 confirmation is good, though if it's a large/important transaction, 6 confirmation is the quick permanent solution.
+
 --- 
 # How to Keep Bitcoin Safe
 
@@ -174,11 +184,25 @@ note: A seed phrase, also known as a recovery phrase or mnemonic seed, is a list
 
 An additional layer built on top of the Bitcoin network that allows for faster and cheaper transactions.
 
+note: Now we can save on layer one fees, have quicker settlement of transaction, and have money that's easier to program than layer one Bitcoin. There are other "off-chain" or "layer 2 solutions" though lightning network is the one that is most popular
+
 # Electric Engine
 
 ![electric engine](electric-engine.png)
 
-note: Just like with combustion engines, we don't really need to know how they work to use it. Your situation may be different were custody is important; which then you would learn more about your new monetary vehicle
+note: Just like with combustion engines, we don't really need to know how they work to use it. Your situation may be different were custody is important; which then you would learn more about your new monetary vehicle. 
+# ...on the Lightning Network 
+
+![Spongebob at night](at-night.png)
+
+note: Apply the same approach to on-chain Bitcoin. Learn how to send, receive, keep it safe, but just on an additional layer 
+
+# How to Receive on the Lightning Network 
+
+# How to Send on the Lightning Network
+
+# How to Keep your Sats Save on the Network
+
 
 # Did I miss something?
 
@@ -188,11 +212,16 @@ note: I missed a lot. Do you think there's anything I should add?
 
 
 ---
-# Continued Learning
+# Continued Learning & Resources
 
-- [Mastering Bitcoin Chapters 1-2](https://github.com/bitcoinbook/bitcoinbook)
-- [Jameson Lopp's Resource Page](https://www.lopp.net/bitcoin-information.html)
+You can see this presentation here:
+- https://github.com/jasonribble/bitcoin-lightning-101
+- QR Code:
+
+- [Jameson Lopp's Resource Page](https://www.lopp.net/bitcoin-information/getting-started.html)
 - [Inventing Bitcoin by Yan Pritzker](https://www.swanbitcoin.com/inventing-bitcoin/)
 	- https://www.swanbitcoin.com/inventing-bitcoin/
 - [Strike Learn](https://strike.me/learn/)
 	- https://strike.me/learn/
+- [Mastering Bitcoin Chapters 1-2](https://github.com/bitcoinbook/bitcoinbook)
+- [Mempool](https://mempool.space/)
