@@ -2,26 +2,31 @@
 theme: black
 tags:
   - bitcoin
-  - presntation
-  - WealthBattle
+  - lightning
+  - nostr
+  - BitBuilders
+  - presentation
 ---
 
-# Bitcoin Just Turned 15!
+# Bitcoin 101 & Lightning 101
 
-What you need to know
+A way to get started with Bitcoin: or How I Learned to Stop over-complicating things and Love simplicity
+
 
 ---
 
 ## Overview
 - Introduction
 - The Punch Line 
-- The EV Car Metaphor
+- The Car Metaphor
 - What is Bitcoin
 	- How to Receive Bitcoin
 	- How to Send Bitcoin
 	- How to Keep **Your** Bitcoin Safe
 	- How to Get Bitcoin
-
+- What is the Lightning Network
+	- How to Receive Sats
+	- How to Send Sat
 
 ---
 
@@ -29,10 +34,11 @@ What you need to know
 
 - Who am I?
 - Why am I doing this?
-- What are you looking to get out of this?
 - What we **won't** talk about this presentation
+- What are you looking to get out of this?
 
-note: We are not talking about: other cryptocurrency, ETFs, technical jargon, monetary theory, humanitarian / moral implication of monetary control, the environment. If you wanted to talk bout Javier Mieli, the SEC, OP_CHECKTEMPLATEVERIFY, Mises, the history of monetary oppression, or how ASICS are may be leading us to sustainable energy, you are in the wrong place.
+
+note: My name is Jason. Online I go by Not Jason. I am here to try to provide a no bs way to look at Bitcoin for non-technical users. We are not talking about: other cryptocurrency, technical jargon, monetary theory, humanitarian / moral implication of monetary control, or the environment. If you wanted to talk about P2TR, Ludwig Von Mises, the CFA franc, or how ASICS are may be leading us to sustainable energy, you are in the wrong place.
 
 ---
 # The Punch Line
@@ -41,6 +47,7 @@ By learning how to send, receive, and keep your **bitcoin** secure, you can safe
 
 By dollar cost averaging you remove psychological risk from investing into your long term investments. 
 
+note: If you don't have any questions after this presentation, then I have failed. This is a very simple presentation. If I haven't made a mistake, then something is also wrong.
 
 ---
 # What is Bitcoin?
@@ -48,8 +55,12 @@ By dollar cost averaging you remove psychological risk from investing into your 
 - Bitcoin = the network
 - bitcoin = the money
 - Cryptocurrency = cryptography + currency
-- Open source = https://github.com/bitcoin/bitcoin
+- Open source
+  - Code that is open to the public, verifiable, and under an open source license
+  - https://github.com/bitcoin/bitcoin
 - It's an experiment testing a new paradigm 
+
+note: Was online in 2009 and created by a person named Satoshi Nakamoto, but really we don't care about that anymore. Bitcoin will become ubiquitous and boring.
 
 ---
 
@@ -58,31 +69,33 @@ By dollar cost averaging you remove psychological risk from investing into your 
 - $1 USD = 100 cents
 - ₿1 BTC = 100,000,000 satoshis
 
-notes: There are also finneys, bits, nano-bitcoin, and millibitcoin, but are rarely used. Satoshis can even be broken down further through some clever computer sicne.
+notes: There are also finneys, bits, nano-bitcoin, and millibitcoin, but are rarely used. Satoshis can even be broken down further through some clever computer science, but not on the main Bitcoin network
 
 --- 
 ## What is Bitcoin not
 
-- Impossible to understand
-- "Old"
-- Illegal*
+- Too difficult to use
+- "Old" 
+- Just a trend
 
-*as of 2024-01-17**
-
-note: you are not late. Saying you're late today is like saying it's too light to learn how to use PayPal.
+note: It's 15 years old. You are not late. Saying you're late today is like saying it's too late to learn how to use the Internet. 
 
 ---
 
 ## Engine
 
-![[Pasted image 20240117170827.png]]
-
 **First ask question about the how to drive. Then, ask about the engine so that you can maintain your vehicle**
 
 **The rest of this presentation is how to drive**
 
+![combustion engine](image.png)
+
+notes: When cars were first being made, no one really ask "hmm I wonder how I can save on gas".
+
 ---
 # How to Receive Bitcoin
+
+What you need: 
 
 1. Wallet = where your bitcoins are secured
 	- Allows you to store, receive, and send bitcoin
@@ -90,20 +103,21 @@ note: you are not late. Saying you're late today is like saying it's too light t
 	- Yourself
 	- Someone else
 
-I  recommend Blue Wallet: https://bluewallet.io/
-	
+Recommendations for on-chain Bitcoin walets:
+-  Mobile -> https://bluewallet.io/
+-  Desktop -> https://electrum.org/
+
+note: A Bitcoin Wallet is a software program that stores Bitcoin, allowing users to send, receive, and manage their Bitcoin transactions. You can send yourself bitcoin from an exchange so you can be your own bank, or receive bitcoin through someone else.
 
 ---
 
-# What is an adress
+# What is an address
 
 - In your wallet, you need to provide the sender a bitcoin address
 - Typically done with a QR code, you can also provide the text address below it if you're not in the same room
 - Example:
-- `bc1qymgj60vqazcxds9ar9fqalwajdzryudaypuwqd`
-
-![[bitcoin-address-from-blue-wallet.png]]
-
+	- `bc1qk2g6u8p4qm2s2lh3gts5cpt2mrv5skcuu7u3e4`
+	- ![Bitcoin Address](bitcoin-address-qr.png)
 ---
 
 
@@ -115,31 +129,33 @@ I  recommend Blue Wallet: https://bluewallet.io/
 
 ---
 
-# What are transaction Fees
+# What are transaction fees
 
-Transaction Fees at 2024-01-17 19:00 EST:
+Transaction Fees at 2024-05-29 17:50 MST:
 
-![[transaction-fee-2024-01-17.png]]
+![transaction fees](tx-fees.png)
 
-note: If you would like to avoid fees, look into the "off chain" or "layer 2 solutions", such as the lightning network
+note: Transaction fees are done relative to how "in demand" the block space is. Unless you have a high transaction volume, don't worry too much about fees. If you would like to avoid fees, look into the "off chain" or "layer 2 solutions", such as the lightning network.
 
 --- 
 # How to Keep Bitcoin Safe
 
-- The first question is how much do you want to have?
+- The first question is how much are you willing to lose?
 - Would you spend $100 to protect $100?
 - Your level of security depends on how much you are protecting.
 
----
+note: Bitcoin is more powerful when it is in your control. The more you learn the more you can become your own bank. If it stays on exchange or someone else's computer, it has less value to you. A bird in the hand is worth two in the bush. If you understand this difference, you can reduce your risk. Or at the very least, know the risk that you are taking on when purchasing on centralized exchange, or forgetting to write down a password or backup a mobile wallet.
 
+---
 #  What is a seed phrase
 
-- If someone wanted to pretend they are you, what would they need to access your bank account? = A lot of your information
-- Your bitcoin is protected by cryptography. You need to keep these words safe.
+- If someone wanted to pretend they are you, what would they need to access your bank account?
+  - A lot of your information
+- Your bitcoin is protected by cryptography
 
 ![[seed-phrase-example.png]]
 
-note: These words are randomly generated. Do not chose them as it would be easy to hack as human minds are not good sources of randomness.
+note: A seed phrase, also known as a recovery phrase or mnemonic seed, is a list of words which store all the information needed to recover a Bitcoin wallet. These words are formally randomly generated. Do not chose them as it would be easy to hack as human minds are not good sources of randomness.
 
 ---
 
@@ -149,24 +165,33 @@ note: These words are randomly generated. Do not chose them as it would be easy 
 - Keep it offline
 - Have backups in it
 - If it's a lot of money, increase security
+	- Multisig
+	- Other professional services
 
 --- 
 
-# How to Buy Bitcoin
+# What is the Lightning Network
 
-- [Strike.me](https://invite.strike.me/9OO0FT)
-- [Swan.com](Swan.com)
-- https://invite.strike.me/9OO0FT  (QR Code below)
-- **Warning: You will need to provide sensitive information to a centralized institution.**
-![[strike-referral-link-qr.png]]
+An additional layer built on top of the Bitcoin network that allows for faster and cheaper transactions.
 
-Referal Code: 9OO0FT
-Username: companion
+# Electric Engine
 
---- 
+![electric engine](electric-engine.png)
 
+note: Just like with combustion engines, we don't really need to know how they work to use it. Your situation may be different were custody is important; which then you would learn more about your new monetary vehicle
+
+# Did I miss something?
+
+Learn how to drive, then learn how to maintain your new monetary vehicle.
+
+note: I missed a lot. Do you think there's anything I should add?
+
+
+---
 # Continued Learning
 
+- [Mastering Bitcoin Chapters 1-2](https://github.com/bitcoinbook/bitcoinbook)
+- [Jameson Lopp's Resource Page](https://www.lopp.net/bitcoin-information.html)
 - [Inventing Bitcoin by Yan Pritzker](https://www.swanbitcoin.com/inventing-bitcoin/)
 	- https://www.swanbitcoin.com/inventing-bitcoin/
 - [Strike Learn](https://strike.me/learn/)
