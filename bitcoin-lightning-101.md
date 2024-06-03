@@ -110,13 +110,13 @@ note: A Bitcoin Wallet is a software program that stores Bitcoin, allowing users
 
 ---
 
-# What is an address
+# What is an address / invoice
 
 - In your wallet, you need to provide the sender a bitcoin address
 - Typically done with a QR code, you can also provide the text address below it if you're not in the same room
 - Example:
-  - `bc1qk2g6u8p4qm2s2lh3gts5cpt2mrv5skcuu7u3e4`
-  - ![Bitcoin Address](bitcoin-address-qr.png)
+  - `bc1q9a9n3nyh7fnp2xyzw6favfegqt0tyy3y3q74rg`
+  - ![AZ Bitcoin Network Address](image.png)
 
 ---
 
@@ -211,11 +211,11 @@ note: I missed a lot. Do you think there's anything I should add?
 
 ---
 
-# Continued Learning & Resources
+# Question? Continued Learning
 
 You can see this presentation here:
 
-- https://github.com/jasonribble/bitcoin-lightning-101
+- https://github.com/jasonribble/bitcoin-101
 - QR Code:
 
 - [Jameson Lopp's Resource Page](https://www.lopp.net/bitcoin-information/getting-started.html)
