@@ -215,9 +215,6 @@ note: I missed a lot. Do you think there's anything I should add?
 
 You can see this presentation here:
 
-- https://github.com/jasonribble/bitcoin-101
-- QR Code:
-
 - [Jameson Lopp's Resource Page](https://www.lopp.net/bitcoin-information/getting-started.html)
 - [Inventing Bitcoin by Yan Pritzker](https://www.swanbitcoin.com/inventing-bitcoin/)
   - https://www.swanbitcoin.com/inventing-bitcoin/
