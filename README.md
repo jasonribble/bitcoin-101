@@ -199,9 +199,42 @@ note: Apply the same approach to on-chain Bitcoin. Learn how to send, receive, k
 
 # How to Receive on the Lightning Network
 
+- What you need:
+
+  - A Lightning Wallet
+    - Allows you to recceive, send, store, and secure your sats
+  - Another wallet to send you sats
+    - Yourself
+    - Someone else
+
+- Recommendations wallets for LN?
+  - Strike
+  - Blue wallet
+
+# What is a LN invoice?
+
+- LN invoice = all you need to pay for sats
+  - Includes amount, destination, and authorizatoin
+- LN username = not_jason@strike.me
+
+  - Like a email, insetad of an IP) address
+
+- `lnbc72210n1pn9ugclpp5ccywn3wc3amf6aklpyfwx25nay8dvl02ney3nda4x9gt3x2lhh6sdrz2pskjepqw3hjqs26yppxjarrda5kugzwv468wmmjdvszsnmjv3jhygzfgsazq3m9vehrwctwxevkz4phtym5ga2t2ahkva269ycqzpgxqzursp5cn5a6e4udafrcrjnhqpqu5e6uq9y7m34kud6vsj4scw9g8g2supq9qyyssqdpckkm6yggdummsm9yj6lwg2zcnwejq6wglcutwx2wvc9n9g78an6tm6m680sp6tr7ymr2x0hsj785cyqhgf437t4rzmxfm6xp7v7hqqud2z3w`
+
+![AZ BTC Donate link](image-1.png)
+
 # How to Send on the Lightning Network
 
-# How to Keep your Sats Save on the Network
+- Have a wallet with sats in it
+- Scan the QR code, or insert the invoice or LN username
+- VERY cheap fees (or none at all\*)
+
+# How to Keep your Sats Save on LN
+
+- Depends on the wallet
+- If it’s a custodial wallet, don’t keep more than you’re willing to loss
+- Some wallets come with secrets or URLs that - MUST be backed up to be recovered.
+- Rule of thumb: pay attention
 
 # Did I miss something?
 
