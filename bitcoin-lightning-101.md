@@ -12,21 +12,18 @@ tags:
 
 A way to get started with Bitcoin: or How I Learned to Stop over-complicating things and Love simplicity
 
-
 ---
 
 ## Overview
+
 - Introduction
-- The Punch Line 
+- The Punch Line
 - The Car Metaphor
 - What is Bitcoin
-	- How to Receive Bitcoin
-	- How to Send Bitcoin
-	- How to Keep **Your** Bitcoin Safe
-	- How to Get Bitcoin
+  - How to Receive Bitcoin
+  - How to Send Bitcoin
+  - How to Keep **Your** Bitcoin Safe
 - What is the Lightning Network
-	- How to Receive Sats
-	- How to Send Sat
 
 ---
 
@@ -36,22 +33,23 @@ A way to get started with Bitcoin: or How I Learned to Stop over-complicating th
 - Why am I doing this?
 - What we **won't** talk about this presentation
 - What are you looking to get out of this?
-	- Who here has send & received bitcoin?
-	  - ...on the Lightning Network
-
+  - Who here has send & received bitcoin?
+    - ...on the Lightning Network
 
 note: My name is Jason. Online I go by Not Jason. I am here to try to provide a no bs way to look at Bitcoin for non-technical users. We are not talking about: other cryptocurrency, technical jargon, monetary theory, humanitarian / moral implication of monetary control, or the environment. If you wanted to talk about P2TR, Ludwig Von Mises, the CFA franc, the difference between LND and clightning, or how ASICS are may be leading us to sustainable energy, you are in the wrong place.
 
 ---
+
 # The Punch Line
 
 By learning how to send, receive, and keep your **bitcoin** secure, you can safely join the future of money with little risk.
 
-By dollar cost averaging you remove psychological risk from investing into your long term investments. 
+By dollar cost averaging you remove psychological risk from investing into your long term investments.
 
-note: If you don't have any questions after this presentation, then I have failed. This is a very simple presentation. If I haven't made a mistake, then something is also wrong.
+note: If you don't have any questions after this presentation, then I have failed. This is a simple presentation that purposes removes complexity and assumes that you are here just to learn how to use BitcoinIf I haven't made a mistake, then something is also wrong. I’m here to learn how to be a more entertaining and well spoken presenter
 
 ---
+
 # What is Bitcoin?
 
 - Bitcoin = the network
@@ -60,9 +58,9 @@ note: If you don't have any questions after this presentation, then I have faile
 - Open source
   - Code that is open to the public, verifiable, and under an open source license
   - https://github.com/bitcoin/bitcoin
-- It's an experiment testing a new paradigm 
+- It's an experiment testing a new paradigm
 
-note: Was online in 2009 and created by a person named Satoshi Nakamoto, but really we don't care about that anymore. Bitcoin will become ubiquitous and boring.
+note: Bitcoin went online in 2009 and created by a person named Satoshi Nakamoto, but really we don't care about that anymore. Bitcoin will become ubiquitous and boring. It is consider a permissionless network, where anyone can participant without consulting a centralized authority. We also don't care about that, we care about how to use it.
 
 ---
 
@@ -73,41 +71,40 @@ note: Was online in 2009 and created by a person named Satoshi Nakamoto, but rea
 
 notes: There are also finneys, bits, nano-bitcoin, and millibitcoin, but are rarely used. Satoshis can even be broken down further through some clever computer science, but not on the main Bitcoin network
 
---- 
+---
+
 ## What is Bitcoin not
 
 - Too difficult to use
-- "Old" 
+- "Old"
 - Just a trend
 
-note: It's 15 years old. You are not late. Saying you're late today is like saying it's too late to learn how to use the Internet. 
+note: It's 15 years old. You are not late. Saying you're late today is like saying it's too late to learn how to use the Internet.
 
 ---
 
-## Engine
+## The Car Metaphor
 
-**First ask question about the how to drive. Then, ask about the engine so that you can maintain your vehicle**
+![combustion engine](engine.png)
 
-**The rest of this presentation is how to drive**
-
-![combustion engine](image.png)
-
-notes: When cars were first being made, no one really ask "hmm I wonder how I can save on gas".
+notes: When cars were first being made, no one really ask "hmm I wonder how I can save on gas".**First ask question about the how to drive. Then, ask about the engine so that you can maintain your vehicle**.
 
 ---
+
 # How to Receive Bitcoin
 
-What you need: 
+What you need:
 
 1. Wallet = where your bitcoins are secured
-	- Allows you to store, receive, and send bitcoin
+   - Allows you to store, receive, and send bitcoin
 2. Another wallet to send you bitcoin
-	- Yourself
-	- Someone else
+   - Yourself
+   - Someone else
 
 Recommendations for on-chain Bitcoin walets:
--  Mobile -> https://bluewallet.io/
--  Desktop -> https://electrum.org/
+
+- Mobile -> https://bluewallet.io/
+- Desktop -> https://electrum.org/
 
 note: A Bitcoin Wallet is a software program that stores Bitcoin, allowing users to send, receive, and manage their Bitcoin transactions. You can send yourself bitcoin from an exchange so you can be your own bank, or receive bitcoin through someone else.
 
@@ -118,10 +115,10 @@ note: A Bitcoin Wallet is a software program that stores Bitcoin, allowing users
 - In your wallet, you need to provide the sender a bitcoin address
 - Typically done with a QR code, you can also provide the text address below it if you're not in the same room
 - Example:
-	- `bc1qk2g6u8p4qm2s2lh3gts5cpt2mrv5skcuu7u3e4`
-	- ![Bitcoin Address](bitcoin-address-qr.png)
----
+  - `bc1qk2g6u8p4qm2s2lh3gts5cpt2mrv5skcuu7u3e4`
+  - ![Bitcoin Address](bitcoin-address-qr.png)
 
+---
 
 # How to Send Bitcoin
 
@@ -147,7 +144,8 @@ note: Transaction fees are done relative to how "in demand" the block space is. 
 
 note: 1 confirmation is good, though if it's a large/important transaction, 6 confirmation is the quick permanent solution.
 
---- 
+---
+
 # How to Keep Bitcoin Safe
 
 - The first question is how much are you willing to lose?
@@ -157,7 +155,8 @@ note: 1 confirmation is good, though if it's a large/important transaction, 6 co
 note: Bitcoin is more powerful when it is in your control. The more you learn the more you can become your own bank. If it stays on exchange or someone else's computer, it has less value to you. A bird in the hand is worth two in the bush. If you understand this difference, you can reduce your risk. Or at the very least, know the risk that you are taking on when purchasing on centralized exchange, or forgetting to write down a password or backup a mobile wallet.
 
 ---
-#  What is a seed phrase
+
+# What is a seed phrase
 
 - If someone wanted to pretend they are you, what would they need to access your bank account?
   - A lot of your information
@@ -169,16 +168,16 @@ note: A seed phrase, also known as a recovery phrase or mnemonic seed, is a list
 
 ---
 
-#  What should you do with this seed phrase?
+# What should you do with this seed phrase?
 
 - Keep it safe
 - Keep it offline
 - Have backups in it
 - If it's a lot of money, increase security
-	- Multisig
-	- Other professional services
+  - Multisig
+  - Other professional services
 
---- 
+---
 
 # What is the Lightning Network
 
@@ -190,19 +189,19 @@ note: Now we can save on layer one fees, have quicker settlement of transaction,
 
 ![electric engine](electric-engine.png)
 
-note: Just like with combustion engines, we don't really need to know how they work to use it. Your situation may be different were custody is important; which then you would learn more about your new monetary vehicle. 
-# ...on the Lightning Network 
+note: Just like with combustion engines, we don't really need to know how they work to use it. Your situation may be different were custody is important; which then you would learn more about your new monetary vehicle.
+
+# ...on the Lightning Network
 
 ![Spongebob at night](at-night.png)
 
-note: Apply the same approach to on-chain Bitcoin. Learn how to send, receive, keep it safe, but just on an additional layer 
+note: Apply the same approach to on-chain Bitcoin. Learn how to send, receive, keep it safe, but just on an additional layer
 
-# How to Receive on the Lightning Network 
+# How to Receive on the Lightning Network
 
 # How to Send on the Lightning Network
 
 # How to Keep your Sats Save on the Network
-
 
 # Did I miss something?
 
@@ -210,18 +209,19 @@ Learn how to drive, then learn how to maintain your new monetary vehicle.
 
 note: I missed a lot. Do you think there's anything I should add?
 
-
 ---
+
 # Continued Learning & Resources
 
 You can see this presentation here:
+
 - https://github.com/jasonribble/bitcoin-lightning-101
 - QR Code:
 
 - [Jameson Lopp's Resource Page](https://www.lopp.net/bitcoin-information/getting-started.html)
 - [Inventing Bitcoin by Yan Pritzker](https://www.swanbitcoin.com/inventing-bitcoin/)
-	- https://www.swanbitcoin.com/inventing-bitcoin/
+  - https://www.swanbitcoin.com/inventing-bitcoin/
 - [Strike Learn](https://strike.me/learn/)
-	- https://strike.me/learn/
+  - https://strike.me/learn/
 - [Mastering Bitcoin Chapters 1-2](https://github.com/bitcoinbook/bitcoinbook)
 - [Mempool](https://mempool.space/)
