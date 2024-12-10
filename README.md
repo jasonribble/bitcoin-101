@@ -25,7 +25,17 @@ A way to get started with Bitcoin: or How I Learned to Stop over-complicating th
   - How to Keep **Your** Bitcoin Safe
 - What is the Lightning Network
 
+note: This is an overview of what we are going to talk about. I don’t believe you can give spoilers away when talking about nonfiction. Note that I will make mistakes and if I do I’ll happy send you 1000 sats per mistake. The subtitle of this talk speaks to all complex things and how boil down complexity and learn to talk about things simple. Plus, who doesn’t love Dr. StrangeLove?
+
 ---
+
+## Image Betryal
+
+- The Treachery of Images (French: La Trahison des Images) is a 1929 painting by Belgian surrealist painter René Magritte. The direct translation of is “Image Betrayal”.
+
+![Image Betrayal](not-a-pipe.png)
+
+
 
 ## Introduction
 
@@ -36,19 +46,32 @@ A way to get started with Bitcoin: or How I Learned to Stop over-complicating th
   - Who here has send & received bitcoin?
     - ...on the Lightning Network
 
-note: My name is Jason. Online I go by Not Jason. I am here to try to provide a no bs way to look at Bitcoin for non-technical users. We are not talking about: other cryptocurrency, technical jargon, monetary theory, humanitarian / moral implication of monetary control, or the environment. If you wanted to talk about P2TR, Ludwig Von Mises, the CFA franc, the difference between LND and clightning, or how ASICS are may be leading us to sustainable energy, you are in the wrong place.
+note:
+  My name is Jason. Online I go by Not Jason. I am here to try to provide a simple way to look at Bitcoin for everyday people. 
+
+  We are not talking about: other cryptocurrency, technical jargon, monetary theory, humanitarian / moral implication of monetary control, or the environment. 
+
+  If you wanted to talk about P2TR, Ludwig Von Mises, the CFA franc, the difference between LND and clightning, or how ASICS may be leading us to sustainable energy, you are in the wrong place.
 
 ---
 
 # The Punch Line
 
-By learning how to send, receive, and keep your **bitcoin** secure, you can safely join the future of money with little risk.
+By learning how to send, receive, and keep your bitcoin secure, you can safely join the future of money with little risk.
 
 By dollar cost averaging you remove psychological risk from investing into your long term investments.
 
-note: If you don't have any questions after this presentation, then I have failed. This is a simple presentation that purposes removes complexity and assumes that you are here just to learn how to use BitcoinIf I haven't made a mistake, then something is also wrong. I’m here to learn how to be a more entertaining and well spoken presenter
+note: If you don't have any questions after this presentation, then I have failed. This is a simple presentation that purposes removes complexity and assumes that you are here to learn how to use Bitcoin. 
+
+If I haven't made a mistake, then something is also wrong. I’m here to learn how to be become a better teacher, more entertaining and well spoken presenter
 
 ---
+
+# What is DCA?
+
+- Bitcoin dollar cost averaging consists in investing a fixed amount of USD, into BTC, on regular time intervals. 
+- DCA = Dollar Cost Average
+--- 
 
 # What is Bitcoin?
 
@@ -60,7 +83,11 @@ note: If you don't have any questions after this presentation, then I have faile
   - https://github.com/bitcoin/bitcoin
 - It's an experiment testing a new paradigm
 
-note: Bitcoin went online in 2009 and created by a person named Satoshi Nakamoto, but really we don't care about that anymore. Bitcoin will become ubiquitous and boring. It is consider a permissionless network, where anyone can participant without consulting a centralized authority. We also don't care about that, we care about how to use it.
+note: Bitcoin went online in 2009 and created by a person named Satoshi Nakamoto, but really we don't care about that anymore. It is consider a permissionless network, where anyone can participant without consulting a centralized authority. 
+
+But, we here today also don't care about that, we care about how to use it, as Bitcoin will become ubiquitous and boring.
+
+Crypto != cryptography
 
 ---
 
@@ -68,8 +95,10 @@ note: Bitcoin went online in 2009 and created by a person named Satoshi Nakamoto
 
 - $1 USD = 100 cents
 - ₿1 BTC = 100,000,000 satoshis
+- Sats = satoshis
+- “Stacking sats” = DCA
 
-notes: There are also finneys, bits, nano-bitcoin, and millibitcoin, but are rarely used. Satoshis can even be broken down further through some clever computer science, but not on the main Bitcoin network
+notes: There are also finneys, bits, nano-bitcoin, and millibitcoin, but are rarely used. Satoshis can even be broken down further through some clever computer science, but only satsoshis exist on the Bitcoin network
 
 ---
 
@@ -87,8 +116,24 @@ note: It's 15 years old. You are not late. Saying you're late today is like sayi
 
 ![combustion engine](engine.png)
 
-notes: When cars were first being made, no one really ask "hmm I wonder how I can save on gas".**First ask question about the how to drive. Then, ask about the engine so that you can maintain your vehicle**.
+- First ask question about the how to drive
+- Then, ask about the engine so that you can maintain your vehicle
 
+
+notes: 
+
+Cars are everywhere and very normal (ubiquitous and boring)
+
+Who here knows who invented a car? 
+  The idea of cars go back to ancient and medieval times. In 1649, Hans Hautch of Nurmen built a clockwork-driven carriage. 
+
+Why don’t we care about the year or the person? Because it doesn’t change how a modern care is used today
+
+Most people who talk about Bitcoin, talk about the engine. That’s because they think the engine is the coolest thing ever. 
+
+As children, we didn’t care about how the engined worked, we care about getting to cool places. 
+
+When we get a car, we didn’t even learn upfront how to maintain it, how to save on gas, or what happens if something goes wrong.
 ---
 
 # How to Receive Bitcoin
@@ -118,13 +163,24 @@ note: A Bitcoin Wallet is a software program that stores Bitcoin, allowing users
   - `bc1q9a9n3nyh7fnp2xyzw6favfegqt0tyy3y3q74rg`
   - ![AZ Bitcoin Network Address](image.png)
 
+notes: 
+
+- A Bitcoin address vs Bitcoin Invoice. 
+
+- Typically done with a QR code, you can also provide the text address bellow if you’re not in the same room as the sender.
+
+- Would anyone like to donate to AZ Bitcoin Network; you address above is an invoice for about $20?
+
 ---
 
 # How to Send Bitcoin
 
 1. Have a wallet with bitcoin in it
-2. Scan the QR code or insert the address
-3. Select the fee amount
+2. Scan the QR code or put in the address
+3. Confirm the transaction
+4. Hit Send
+
+- Optionally you can set the fee rate
 
 ---
 
@@ -134,8 +190,11 @@ Transaction Fees at 2024-05-29 17:50 MST:
 
 ![transaction fees](tx-fees.png)
 
-note: Transaction fees are done relative to how "in demand" the block space is. Unless you have a high transaction volume, don't worry too much about fees. If you would like to avoid fees, look into the "off chain" or "layer 2 solutions", such as the lightning network.
+note: 
 
+Transaction fees are done relative to how "in demand" the network" is. Unless you have a high transaction volume, don't worry too much about fees. If you would like to avoid fees, look into the "off chain" or "layer 2 solutions", such as the lightning network.
+
+Also, note that Bitcoin layer 1 has a specific use case. Just like how you don’t drive a Prius off road or expect a Suburban to be fuel efficient
 # How to Know Your Transaction Was Successful
 
 - It takes on average 10 minutes
